@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_x="0.0dip"
+        android:layout_y="0.0dip"
+        android:layout_weight="1.0"/>
+
+    <!--<android.support.design.widget.FloatingActionButton-->android:layerType="software"
+        <!--android:theme="@style/AppTheme.FloatingActionButton"-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="16dp"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:src="@android:drawable/ic_menu_camera"-->
+        <!--android:elevation="6dp"-->
+        <!--app:fabSize="mini"-->
+        <!--app:pressedTranslationZ="12dp" />-->
+
+</RelativeLayout>
